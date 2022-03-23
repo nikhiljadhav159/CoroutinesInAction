@@ -30,7 +30,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="@{(view) -> mainViewModel.fetchUsers()}"
+            android:onClick="@{(view) -> mainViewModel.getApiStatus()}"
             android:text="Get Users"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
